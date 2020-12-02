@@ -8,8 +8,10 @@ def int_to_str(int_1):
     str_1 = str(int_1)
     return str_1
 
-# def add(num_1, num_2):
-    # return 
+def add(num_1, num_2):
+    str_to_int(num_1, num_2)
+    ans = num_1 + num_2
+    return ans
 
 # def subtract(num_1, num_2):
 #     pass

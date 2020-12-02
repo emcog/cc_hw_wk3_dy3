@@ -11,8 +11,8 @@ class TestCalulator(unittest.TestCase):
         self.assertEqual('2', int_to_str(2))
 
 
-    # def test_add(self):
-    #     self.assertEqual(4 , add(2, 2))
+    def test_add(self):
+        self.assertEqual(4 , add(2, 2))
     
     # def test_subtract(self):
     #     self.assertEqual(0, subtract(2, 2))
