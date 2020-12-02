@@ -1,6 +1,6 @@
 import unittest
 
-from tests.file import class/function
+from src.test_calculator import *
 
 if __name__ == '__main__'
     unittest.main()
