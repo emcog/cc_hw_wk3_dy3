@@ -5,7 +5,8 @@ from src.calculator import *
 def index():
     return 'Hello calculator'
 
-# @app.route('/calculator/<num_1>/<num_2>')
-# add(num_1, num_2)
+@app.route('/calc/<num_1>/<num_2>')
+def add_url(num_1, num_2):
+    return add(num_1, num_2)
 
 
