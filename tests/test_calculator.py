@@ -8,7 +8,7 @@ class TestCalulator(unittest.TestCase):
         self.assertEqual((2, 2), str_to_int('2', '2'))
 
     def test_convert_int_to_str(self):
-        self.assertEqual(('2', '2'), int_to_str(2, 2))
+        self.assertEqual('2', int_to_str(2))
 
 
     # def test_add(self):
