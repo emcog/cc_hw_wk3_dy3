@@ -7,8 +7,8 @@ class TestCalulator(unittest.TestCase):
     def test_add_int(self):
         self.assertEqual('4' , add(2, 2))
 
-    # def test_add_int(self):
-    #     self.assertEqual('4' , add('2', '2'))
+    def test_add_int_2(self):
+        self.assertEqual('4' , add('2', '2'))
     
     # def test_subtract(self):
     #     self.assertEqual(0, subtract(2, 2))
